@@ -1,13 +1,29 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
+
+@font-face {
+    font-family: "Fadetta";
+    src: local("Fadetta"),
+      url("./fonts/Fadetta Italic.ttf") format("truetype");
+    font-weight: normal;
+  }
+
+@font-face {
+    font-family: "Fairgrid Urban";
+    src: local("Fairgrid Urban"),
+    url("./fonts/Fairgrid\ Urban.ttf") format("truetype");
+    font-weight: normal;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+@font-face {
+    font-family: "Fairleaders";
+    src: local("FairleadersDemoRegular"),
+    url("./fonts/FairleadersDemoRegular.ttf") format("truetype");
+    font-weight: normal;
+}
+
+@font-face {
+  font-family: "Athios";
+  src: local("AthiosRegular"),
+  url("./fonts/athios.regular.ttf") format("truetype");
+  font-weight: normal;
 }
