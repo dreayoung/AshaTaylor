@@ -27,7 +27,7 @@ const HeroSectionAbout = () => {
     };
 
     getInfo();
-  }, []);
+  });
 
   console.log('infooo', info)
 

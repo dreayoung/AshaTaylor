@@ -9,7 +9,7 @@ const GalleryComp = () => {
       <div className="container">
         <div className="image-gallery">
           {data.map((url, indx) => {
-            return <img src={url.src} className={url.id} key={indx} />;
+            return <img src={url.src} className={url.id} key={indx} alt={url.id}/>;
           })}
         </div>
       </div>

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import GalleryComp from '../../components/Gallery';
-import Gallery from 'react-photo-gallery';
+// import Gallery from 'react-photo-gallery';
 import HeroSectHome from '../../components/HeroSectHome';
 import { data, data2 } from './Data';
 
